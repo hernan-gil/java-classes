@@ -1,4 +1,4 @@
-package tokens;
+package default;
 
 import java.util.StringTokenizer;
 
@@ -24,7 +24,7 @@ public class TokenApp {
         }
 
         try  {
-		//espera la pulsación de una tecla y luego RETORNO
+		//espera la pulsaciÃ³n de una tecla y luego RETORNO
             System.in.read();
         }catch (Exception e) {  }
     }
